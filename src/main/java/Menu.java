@@ -42,8 +42,8 @@ public class Menu {
 
         if (resposta.equals("old")) {
             System.out.println("LISTA DE MATRICULAS ANTIGAS" + "\n");
-            for (int i = 0; i < 10; i++) {
-                System.out.println("Matricula " + (i+1) + ": " + generator.generateOld());
+            for (int i = 0; i < 40; i++) {
+                System.out.println("|" + generator.generateOld() + "|");
             }
         } else {
             System.out.println("LISTA DE MATRICULAS NOVAS" + "\n");
